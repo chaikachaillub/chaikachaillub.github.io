@@ -1,0 +1,26 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+.photo {
+	width: 90%;
+	margin:auto;
+	column-count: 3;
+	column-gap: 3px;
+}
+.img {
+	width: 100%;
+	display: block;
+	opacity: 0.3;
+	transition: opacity 1s, box-shadow 1s, transform 1s  ;
+}
+.img:hover{
+	opacity: 1;
+	z-index: 10;
+	box-shadow: 0 0 20px 5px lightpink;
+	transform: scale(1.2);
+}
+body{
+	background: black;
+}
