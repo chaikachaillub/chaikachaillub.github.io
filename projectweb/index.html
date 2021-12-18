@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>new year</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="ny.css">
+
+<!--
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // инициализация слайдера
+      var slider = new SimpleAdaptiveSlider('.slider', {
+        autoplay: true,
+        interval: 5000,
+        swipe: true,
+      });
+    });
+  </script>
+  <style>
+    /* стили для элемента body */
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+        sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    }
+
+    /* дополнительные стили для этого примера */
+    .slider__items {
+      counter-reset: slide;
+    }
+
+    .slider__item {
+      counter-increment: slide;
+    }
+
+    .slider__item>div::before {
+      content: counter(slide);
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      color: #fff;
+      font-style: italic;
+      font-size: 32px;
+      font-weight: bold;
+    }
+  </style>-->
+	<script type="text/javascript">
+timeend= new Date();
+// IE и FF по разному отрабатывают getYear()
+timeend= new Date(timeend.getYear()>1900?(timeend.getYear()+1):(timeend.getYear()+1901),0,1);
+// для задания обратного отсчета до определенной даты укажите дату в формате:
+// timeend= new Date(ГОД, МЕСЯЦ-1, ДЕНЬ);
+// Для задания даты с точностью до времени укажите дату в формате:
+// timeend= new Date(ГОД, МЕСЯЦ-1, ДЕНЬ, ЧАСЫ-1, МИНУТЫ);
+function time() {
+	today = new Date();
+	today = Math.floor((timeend-today)/1000);
+	tsec=today%60; today=Math.floor(today/60); if(tsec<10)tsec='0'+tsec;
+	tmin=today%60; today=Math.floor(today/60); if(tmin<10)tmin='0'+tmin;
+	thour=today%24; today=Math.floor(today/24);
+	timestr=today +" : "+ thour+" : "+tmin+" : "+tsec+"";
+	document.getElementById('t').innerHTML=timestr;
+	window.setTimeout("time()",1000);
+}
+</script>
+</head>
+<body onload="time()">
+
+	<a href="#top"><button class="vverh"></button> </a>
+	<div class="fpage">
+		<p class="hello">HELLO</p>
+		<div>
+			<p style=" color: white; font-size: 15px; margin-top: 5px; text-align: center;">
+				<a href="ny1.html" style="margin-right: 10px;">ГАЛЕРЕЯ</a><a href="ny2.html" style="margin-left: 10px;">МУЗЫКА</a>
+			</p>
+		</div>
+		<div class="middle">
+			<div class="time">
+			<p style="font-size: 43.5px; color: white; margin-top: 0px;">до нового года осталось:</p>
+			<p><span id="t" style="font-size:80px" class="span"></span></p>
+			<!--<img src="img/gif.gif" style="width: 55%; height: calc(100vw / 25 * 7.8);">-->
+
+
+
+
+
+			<div class="slider">
+    <div class="slider__wrapper">
+      <div class="slider__items">
+        <div class="slider__item">
+          <div style="height: calc(100vw / 24 * 7.8); background: url(img/gif2.gif);"></div>
+        </div>
+    </div>
+</div>
+</div>
+        <!--<div class="slider__item">
+          <div style="height: calc(100vw / 38 * 7.8); background: url(img/gif3.gif);"></div>
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: url(img/11.jpg);"></div>
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: url(img/11.jpg);"></div>
+        </div>
+      </div>
+    </div>
+    <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+    <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+  </div>-->
+
+
+
+
+
+
+			<!--<img src="img/gif2.gif" style="width: 60%; height: calc(100vw / 38 * 7.8);" class="gif">
+			<button> 
+				<audio controls=""><source src="music/chris.mp3" type="audio/mpeg"></audio>
+				<audio controls=""><source src="music/chrisjazz.mp3" type="audio/mpeg"></audio>
+			</button>-->
+
+			</div>
+		</div>
+		
+	</div>
+	<!--<div class="gallery">-->
+		<!--<p style="font-size: 24px;">there you can see some pictures</p>-->
+		<!--<img src="img/ng.jpg" class="img">
+		<img src="img/claus.jpg" class="img">
+		<img src="img/claus2.jpg" class="img">
+		<img src="img/claus1.jpg" class="img">
+		<img src="img/cringe.jpg" class="img">
+		<img src="img/newyear3.jpg" class="img">
+		<img src="img/newyear4.jpg" class="img">
+		<img src="img/newyear1.jpg" class="img">
+		<img src="img/newyear.jpg" class="img">
+	</div>
+<footer>
+	<table>
+			<tr>
+				<td><div class="foto" id="f1"></div></td>
+				<td><div class="foto" id="f2"></div></td>
+				<td><div class="foto" id="f3"></div></td>
+				<td><div class="foto" id="f4"></div></td>
+				<td><div class="foto" id="f9"></div></td>
+				<td><div class="foto" id="f10"></div></td>
+				<td><div class="foto" id="f11"></div></td>-->
+				<!--<td><div class="foto" id="f12"></div></td>-->
+			<!--</tr>
+			<tr>
+				<td><div class="foto" id="f5"></div></td>
+				<td><div class="foto" id="f6"></div></td>
+				<td><div class="foto" id="f7"></div></td>
+				<td><div class="foto" id="f8"></div></td>
+				<td><div class="foto" id="f13"></div></td>
+				<td><div class="foto" id="f14"></div></td>
+				<td><div class="foto" id="f15"></div></td>-->
+				<!--<td><div class="foto" id="f16"></div></td>-->
+			<!--</tr>
+		</table>
+</footer>
+<div class="music">
+	<p style="font-size: 24px; color: white; margin-bottom: 40px; margin-top: 40px;text-align: center;">there you can listen music</p>
+	<div class="audio">
+	<audio controls=""><source src="music/chris.mp3" type="audio/mpeg" class="music"></audio>
+	<audio controls=""><source src="music/chrisjazz.mp3" type="audio/mpeg" class="music"></audio>
+	</div>
+</div>-->
+</body>
+</html>
