@@ -1,0 +1,184 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*{cursor: url(https://cur.cursors-4u.net/anime/ani-10/ani976.ani), url(https://cur.cursors-4u.net/anime/ani-10/ani976.png), auto !important;
+}
+body{
+	background-color: #;
+}
+.ny{
+	background: url(img/fon.jpg);
+}
+.vverh {
+	background: url(img/kitty.png);
+	width: 35px;
+	height: 35px;
+	background-size: cover;	
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+	border: 0px !important;
+	display: block;
+	z-index: 100
+}
+.fpage{
+	background: url(img/blackwhite3.jpg); 
+	height: calc(100vw / 15.82 * 7.8);
+	width: 100%;
+}
+.gallery{
+	width: 100%;
+	margin:auto;
+	column-count: 3;
+	column-gap: 3px;
+	margin-top: 10px;
+}
+.fuck{
+	padding-top: 50px;
+}
+.img{
+	height: calc(100vw / 33 * 8);
+	width: 100%;
+	display: block;
+	opacity: 0.5;
+	transition: opacity 1s, box-shadow 1s, transform 1s  ;
+}
+.img:hover{
+	opacity: 1;
+	z-index: 10;
+	box-shadow: 0 0 20px 5px #000000;
+}
+.hello{
+	color: white;
+	font-size: 14px;
+	opacity: 0.6;
+	padding-top: 5px;
+	text-align: center;
+}
+.time{
+	text-align: center;
+	color: white;
+	margin-right: 10px;
+	margin-top: 0px;
+}
+.middle{
+	background-color: #;
+	margin: auto;
+	height: 510px;
+	width: 60%;
+
+}
+.gif{
+	margin: auto;
+}
+footer{
+	background-color: black;
+	margin:auto;
+	height: 400px;
+	width: 100%;
+}
+.foto{
+	height: calc(100vw / 33 * 8);
+	width: 100%;
+	display: block;
+	opacity: 0.5;
+	transition: opacity 1s, box-shadow 1s, transform 1s  ;
+}
+.foto:hover{
+	opacity: 1;
+	z-index: 10;
+	box-shadow: 0 0 20px 5px #000000;
+}
+.foto{
+    width: 215px;
+    height:200px;
+    border-radius:15px;
+    background-size: cover;
+    border: 2px solid black;
+    margin: auto;
+}
+.foto#f1{
+    background: url(img1/ny.jpg);
+    background-size: cover;
+}
+.foto#f2{
+    background: url(img1/ny1.jpg);
+    background-size: cover;
+}
+.foto#f3{
+    background: url(img1/ny2.jpg);
+    background-size: cover;
+}
+.foto#f4{
+    background: url(img1/ny3.jpg);
+    background-size: cover;
+}
+.foto#f5{
+    background: url(img1/ny4.jpg);
+    background-size: cover;
+}
+.foto#f6{
+    background: url(img1/ny5.jpg);
+    background-size: cover;
+}
+.foto#f7{
+    background: url(img1/ny6.jpg);
+    background-size: cover;
+}
+.foto#f8{
+    background: url(img1/ny7.jpg);
+    background-size: cover;
+}
+.foto#f9{
+    background: url(img1/ny8.jpg);
+    background-size: cover;
+}
+.foto#f10{
+    background: url(img1/ny9.jpg);
+    background-size: cover;
+}
+.foto#f11{
+    background: url(img1/ny10.jpg);
+    background-size: cover;
+}
+.foto#f12{
+    background: url(img1/ny11.jpg);
+    background-size: cover;
+}
+.foto#f13{
+    background: url(img1/ny12.jpg);
+    background-size: cover;
+}
+.foto#f14{
+    background: url(img1/ny13.jpg);
+    background-size: cover;
+}
+.foto#f15{
+    background: url(img1/ny14.jpg);
+    background-size: cover;
+}
+.foto#f16{
+    background: url(img1/ny15.jpg);
+    background-size: cover;
+}
+.music{
+	margin-top: 50px;
+	height: 300px;
+	width: 50%;
+	margin: auto;
+}
+.audio{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+table{
+	margin: auto;
+}
